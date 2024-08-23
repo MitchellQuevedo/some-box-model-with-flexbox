@@ -9,6 +9,7 @@ Main idea was to make it as similar as the example, and try to include a respons
 - Box Model implemented.
 - Desktop First strategy implemented.
 - I still have some problems with responsivity ⛔.
+- No libraries or frameworks implemented ⛔.
 
 
 
