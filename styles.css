@@ -18,9 +18,9 @@ body{
 
 #main-container{
    max-width:375px;
-
+    min-width: 350px;
     border:2px solid transparent;
-    margin: auto;
+    margin: 0 auto 2rem;
     padding: 0.9rem;
     display: flex;
     flex-direction: column;
@@ -60,28 +60,7 @@ font-weight: 400;
 padding:0 1rem;
 }
 
-@media (max-width: 768px) {
-    
-    #main-container {
-        width: 80%;
-        height: auto;
-        margin: 10% auto;
-        padding: 1rem;
-    }
 
-    .qr-text-container img {
-        height: auto;
-    }
-
-    .qr-text-container h1 {
-        font-size: 1.1rem;
-    }
-
-    .qr-text-container p {
-        font-size: 14px;
-        padding: 0 0.5rem;
-    }
-}
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
